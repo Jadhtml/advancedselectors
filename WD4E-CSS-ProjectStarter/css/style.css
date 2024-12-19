@@ -1,0 +1,61 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 140%;
+}
+
+header {
+    background-color: #d3d3d3;
+}
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+main {
+    background-color: #a5d8e7;
+}
+
+footer {
+    background-color: #d3d3d3;
+}
+
+ li {                           
+    display: inline-block;      
+    width: 30%;
+    text-align: center; 
+} 
+
+h1 {
+    text-align: center;
+    font-family: Arial Impact, Tahoma, sans-serif;
+    color: #110df7;
+}
+
+p {
+    line-height: 3;
+}
+
+.neigbourhood_gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    row-gap:50px
+}
+
+.neigbourhood_gallery img{
+width: 70%;
+
+}
+
+.parks_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parks_gallery img {
+    width: 250px;
+    height: auto;
+    margin:10px
+}
